@@ -1,0 +1,2 @@
+# Allow nagios user to run /usr/sbin/smartctl as root
+nagios ALL = NOPASSWD: /usr/sbin/smartctl

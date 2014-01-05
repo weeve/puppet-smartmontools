@@ -1,0 +1,2 @@
+# Allow nrpe user to run /usr/sbin/smartctl as root
+nrpe ALL = NOPASSWD: /usr/sbin/smartctl
